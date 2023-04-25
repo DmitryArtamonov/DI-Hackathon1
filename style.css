@@ -1,0 +1,70 @@
+body{
+width: 1440px;
+margin: auto;
+text-align: center;
+
+}
+
+
+header{
+    text-align: left;
+    background-image: url("harold.jpg");
+    background-repeat: no-repeat;
+    padding: 400px 0px 200px 60px;
+}
+
+h1{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 98px;
+    line-height: 119px;
+    text-transform: uppercase;
+    width: 720px;
+    color: #355869;
+}
+header p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #355869;
+    margin-top: -40px;
+
+}
+
+main{
+    background-color: #687EF2;
+
+}
+
+.page
+{
+    height: 1024px;
+}
+
+h2, #price{
+    font-size: 64px;
+    line-height: 77px;
+}
+article{
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+h2, article, #price{
+    text-align: left;
+    padding: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#price{
+    text-align: center;
+}
+
