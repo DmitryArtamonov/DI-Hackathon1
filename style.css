@@ -1,4 +1,4 @@
-body{
+#main_body{
 width: 1440px;
 margin: auto;
 text-align: center;
@@ -35,7 +35,7 @@ header p{
 
 }
 
-main{
+main, .fund_page{
     background-color: #687EF2;
 
 }
@@ -68,3 +68,45 @@ h2, article, #price{
     text-align: center;
 }
 
+#ellipse{
+    width: 1800px;
+    height: 371px;
+    margin-top: 80px;
+    margin-left: -60px;
+}
+
+#ellipse, .bubble{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+
+#logo_container{
+    width: 1400px;
+    padding-top: 130px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#ellipse img{
+    width: 250px;
+}
+
+
+/*Fund pages start here */
+
+.fund_page{
+
+}
+
+
+
+.bubble{
+    position: absolute;
+    width: 497px;
+    height: 329px;
+    right: -100px;
+    top: -120px;    
+
+}
