@@ -13,24 +13,23 @@ header{
     padding: 400px 0px 200px 60px;
 }
 
-h1{
-
+h1, header p{
+    color: #355869;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
+}
+
+h1{
+
     font-size: 98px;
     line-height: 119px;
     text-transform: uppercase;
     width: 720px;
-    color: #355869;
 }
 header p{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
     font-size: 48px;
     line-height: 58px;
-    color: #355869;
     margin-top: -40px;
 
 }
@@ -42,7 +41,12 @@ main, .fund_page{
 
 .page
 {
-    height: 1024px;
+
+}
+
+#flag_page{
+    background: url(flag.png) ;
+    background-color: #FFFFFF;
 }
 
 h2, #price{
@@ -55,7 +59,7 @@ article{
     color: #FFFFFF;
 }
 
-h2, article, #price{
+h2, article, #price #call_to_action{
     text-align: left;
     padding: 70px;
     font-family: 'Inter';
@@ -80,27 +84,32 @@ h2, article, #price{
     border-radius: 50%;
 }
 
-
 #logo_container{
     width: 1400px;
     padding-top: 130px;
     padding-left: 40px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    
 }
 
-#ellipse img{
-    width: 250px;
+#ellipse img, .bubble img{
+    height: 70px;
 }
 
+#call_to_action{
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #687EF2;
+}
 
 /*Fund pages start here */
 
 .fund_page{
 
 }
-
-
 
 .bubble{
     position: absolute;
@@ -109,4 +118,32 @@ h2, article, #price{
     right: -100px;
     top: -120px;    
 
+}
+
+.bubble img{
+
+    margin-top: 180px;
+    margin-left: 80px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+}
+
+.phone_block{
+    display: flex;
+    font-size: 108px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.phone_block p{
+    margin: 0 20px;
+}
+
+
+.contacts img{
+    height: 130px;
+    
 }
