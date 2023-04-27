@@ -1,7 +1,13 @@
+
 #main_body{
-width: 1440px;
-margin: auto;
-text-align: center;
+    position: relative;
+    width: 1440px;
+    margin: auto;
+    text-align: center;
+}
+
+a:visited {
+    color: inherit;
 
 }
 
@@ -9,13 +15,19 @@ nav{
     font-size: 40px;
     color:white;
     list-style-type: none;
-    background-color: #687EF2;
+    background-color:#355869;
     display: flex;
     justify-content: space-between;
     text-align: center;
     padding: 10px 50px;
     flex: 0 0 auto;
 
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
 
 }
 
@@ -47,13 +59,14 @@ header p{
 
 }
 
-main, .fund_page{
-    background-color: #687EF2;
-
+main{
+    background: rgb(104,126,242);
+    background: linear-gradient(0deg, rgba(104,126,242,1) 0%, rgba(53,88,105,1) 100%);
+  
 }
 
-.page
-{
+main, .fund_page{
+    background-color: #687EF2;
 
 }
 
@@ -134,6 +147,7 @@ input{
     border: 8px solid #687EF2;
     border-radius: 30px;
     margin-top: 50px;
+    font-size: 40px;
 }
 
 button{
@@ -151,9 +165,10 @@ button{
 footer{
     color: #FFFFFF;
     font-weight: bolder;
-    text-align: right;
+    text-align: left;
     font-size: 32px;
     margin: 20px;
+    padding: 20px;
 }
 
 /*Fund pages start here */
@@ -199,11 +214,11 @@ footer{
     
 }
 
-.home_button{
+.home_button, .home_button_fund{
     position: fixed;
+
     width: 120px;
     height: 120px;
-    right: calc(50% - 700px);
     bottom: 20px;
     background: #687ff2fe;
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
@@ -211,7 +226,26 @@ footer{
     border-radius: 50%;
 }
 
-.home_button img{
+.home_button{
+    right: calc(50% - 700px);
+
+}
+
+.home_button_fund{
+    right: 20px;
+}
+.home_button img, .home_button_fund img{
     height: 70px;
     margin-top: 18px;
 }
+
+.eye{
+    position: absolute;
+    opacity: 0;
+    left: 880px;
+    top: 155px;
+}
+
+.eye:hover {
+    opacity: 1;
+} 
